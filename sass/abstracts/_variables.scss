@@ -1,0 +1,31 @@
+// abstracts/_variables.scss
+$primary-color: #171717;
+$secondary-html: #E93E30;
+$secondary-js: #F7E018;
+$secondary-css: #299ED5;
+$secondary-react: #292C33;
+$secondary-vue: #67C770;
+$secondary-bt: #563D7C;
+
+$borde: 2px solid #CCCCCC;
+
+$grid-columns: 1fr 1fr 540px;
+$grid-rows: 130px 100px 550px 890px 360px 130px;
+
+$grid-columns_login: minmax(500px, 1fr);
+$grid-rows_login: 130px 550px 360px 130px;
+
+$grid-columns_post: 1fr;
+$grid-rows_post: 130px 800px 500px 130px;
+
+
+$border-radius-principal: 20px;
+$border-radius-secundario: 5px;
+
+$padding-complementario: 10px 20px;
+$padding-principal: 0 0 0 160px;
+$padding-secundario: 0 160px 0 0;
+$padding-terciario: 0 160px 0 160px;
+$padding-form: 0 500px 0 500px;
+
+

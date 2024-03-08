@@ -1,0 +1,40 @@
+// layout/_grid.scss
+@use '../abstracts/variables' as vars;
+.section {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: vars.$grid-columns;
+    grid-template-rows: vars.$grid-rows;
+    grid-template-areas: 
+      "header header header"
+      "titulo_novedades titulo_novedades titulo_novedades"
+      "novedades novedades article_novedades"
+      "populares populares aside"
+      "subcripcion subcripcion subcripcion"
+      "footer footer footer";
+  }
+  
+  .section__login {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: vars.$grid-columns_login;
+    grid-template-rows: vars.$grid-rows_login;
+    grid-template-areas: 
+      "header"
+      "form_login"
+      "subcripcion"
+      "footer";
+  }
+
+  .section__post {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: vars.$grid-columns_post;
+    grid-template-rows: vars.$grid-rows_post;
+    grid-template-areas: 
+      "header"
+      "post"
+      "relacionados"
+      "footer";
+  }
+  

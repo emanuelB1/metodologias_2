@@ -1,0 +1,25 @@
+// components/_header.scss
+@use '../abstracts/variables' as vars;
+
+.section__header {
+    display: flex;
+    grid-area: header;
+    border-bottom: vars.$borde;
+    align-items: center;
+    padding: vars.$padding-principal;
+}
+
+.section__header-logo {
+    width: 55px;
+    height: 55px;
+    border-radius: vars.$border-radius-secundario;
+    margin-right: 20px;
+    box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .section__header-container {
+    display: flex;
+  }
+
+  
+  

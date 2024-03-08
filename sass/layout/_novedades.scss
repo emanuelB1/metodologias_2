@@ -1,0 +1,126 @@
+@use '../abstracts/variables' as vars;
+
+.section__main--novedades,
+.section__article--novedades  {
+    border-bottom: vars.$borde;
+} 
+
+.section__novedades-titulo {
+    grid-area: titulo_novedades;
+    padding: vars.$padding-principal;
+}
+
+.section__novedades-titulo h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.section__main--novedades {
+    grid-area: novedades;
+    padding: vars.$padding-principal;
+}
+
+.section__main-imagen {
+    width: 603px;
+    height: 314px;
+    object-fit: cover;
+    border-radius: vars.$border-radius-principal;
+}
+
+.section__article--novedades {
+    grid-area: article_novedades;
+    padding: vars.$padding-secundario;
+}
+
+
+.section__main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__main-container--logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.section__article-imagen--novedades {
+    width: 189px;
+    height: 145px;
+    border-radius: vars.$border-radius-principal;
+    object-fit: cover;
+}
+
+.section__article-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.section__article-container--description {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.section__article--populares-contenedor-principal {
+    display: flex;
+
+}
+
+.section__main-logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.section__article-imagen--novedades {
+    height: 145px;
+    width: 189px;
+    padding: 0;
+    margin: 0 10px 10px 0;
+}
+
+
+.section__main-container--description p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section__main-container--description h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section__article-container--description p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0 0 10px 10px;
+}
+
+.section__article-container--description h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 10px 10px;
+}
+
+.section__main-container--logo p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.section__novedades--article-container--logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section__novedades--article-container--logo p {
+    font-size: 16px;
+    font-weight: 500;
+}

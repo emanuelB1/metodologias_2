@@ -1,0 +1,19 @@
+@use '../abstracts/variables' as vars;
+
+.section__footer {
+    grid-area: footer;
+    padding: vars.$padding-terciario;
+    padding-top: 40px;
+    border-top: vars.$borde;
+}
+
+
+.section__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__footer h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
