@@ -352,6 +352,7 @@ template {
   border-radius: 5px;
   margin: 0 0 30px 0;
   width: 298px;
+  cursor: pointer;
 }
 
 .section__aside-logo {
@@ -484,6 +485,7 @@ template {
   height: 55px;
   border-radius: 50%;
   margin-right: 20px;
+  box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .section__article-imagen--novedades {
@@ -579,6 +581,7 @@ template {
   height: 40px;
   border-radius: 50%;
   margin-right: 20px;
+  box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .section__novedades--article-container--logo {
@@ -591,6 +594,7 @@ template {
   width: 40px;
   height: 40px;
   margin: 0 5px 0 5px;
+  box-shadow: 4px 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .section__populares-container--logo {
