@@ -1,6 +1,6 @@
 # Blog FrontEnd con Sass
 
-Este proyecto es el resultado de un desafío propuesto en el curso de desarrollo FrontEnd, en el cual se aplicaron conocimientos avanzados de Sass para mejorar la estructura y estilización de un blog. El objetivo principal fue migrar el proyecto existente a Sass, manteniendo una estructura clara y organizada, y desarrollar funcionalidades adicionales solicitadas por el cliente.
+Este proyecto es el resultado de un desafío propuesto en el curso de desarrollo FrontEnd, en el cual se aplicaron conocimientos de Sass para mejorar la estructura y estilización de un blog. El objetivo principal fue migrar el proyecto existente a Sass, manteniendo una estructura clara y organizada, y desarrollar funcionalidades adicionales solicitadas por el cliente.
 
 ## Descripción del Proyecto
 
